@@ -1,0 +1,129 @@
+:root{
+    --accent-yellow: #FED136;
+    --title-color: #222;
+    --text-color: #777;
+    --light-text: #BBB;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: var(--title-color);
+}
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 942px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 15px;
+}
+.navigation-link:not(:last-child){
+    margin-right: 30px;
+}
+.services-list{
+    display: flex;
+    justify-content: space-between;
+}
+.services-item{
+    width: 290px;
+    text-align: center;
+}
+.contact{
+    background-color: var(--title-color);
+}
+.contact-form-left{
+    display: flex;
+    flex-direction: column;
+}
+.contact-form-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-form-left,
+.contact-form-right
+{
+    width: 48%;
+}
+.contact-form-input{
+    width: 100%;
+    padding: 17px 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--light-text);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.contact-form-left .contact-form-input:not(:last-child){
+    margin-bottom: 28px;
+}
+.contact-form-textarea{
+    height: 213px;
+}
+.contact-form-btn{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 23px 33px;
+    background-color: var(--accent-yellow);
+    display: block;
+    border: 0;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 28px;
+}
+.contact-title, .services-title{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 0;
+}
+.services-list{
+    color: var(--title-color);
+    margin-bottom: 90px;
+}
+.contact{
+    padding: 92px 0 115px;
+}
+.services{
+    padding: 75px 0;
+}
+.navigation-link{
+    text-transform: uppercase;
+    color: var(--accent-yellow);
+}
+.services-item-title{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.services-item-text{
+    font-family: 'Roboto Slab', serif;
+    color: var(--text-color);
+}
+.contact-title{
+    margin-bottom: 114px;
+}
